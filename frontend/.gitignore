@@ -1,4 +1,4 @@
-echo node_modules/ | Out-File -Encoding utf8 .gitignore
-echo .env | Out-File -Encoding utf8 -Append .gitignore
-echo dist/ | Out-File -Encoding utf8 -Append .gitignore
-echo build/ | Out-File -Encoding utf8 -Append .gitignore
+node_modules/
+.env
+dist/
+build/
